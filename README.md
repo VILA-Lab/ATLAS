@@ -1,1 +1,1 @@
-# Atlas-A-LLM-Inquiry-Principle-Benchmark
+# Atlas: A LLM Inquiry Principle Benchmark
