@@ -1,0 +1,82 @@
+[
+    {
+        "instruction": "Example 1: \"Subtract 3 from 8. First, start with 8, then subtract 3. The result is 5.\"\nExample 2: \"Subtract 6 from 10. First, start with 10, then subtract 6. The result is 4.\"\nMain Question: \"Subtract 7 from 15. First, start with 15, then subtract 7. The result is...?\"",
+        "output": "The result is 8. \n\nFollowing the same pattern as the examples:\n\"Subtract 7 from 15. First, start with 15, then subtract 7. The result is 15 - 7 = 8.\""
+    },
+    {
+        "instruction": "Example 1: \"If a train travels 300 kilometers in 3 hours, what is its speed? Speed is distance divided by time, so 300 km / 3 hours = 100 km/h.\"\nExample 2: \"If a car travels 240 kilometers in 4 hours, what is its speed? Speed is distance divided by time, so 240 km / 4 hours = 60 km/h.\"\nMain Question: \"If a bicycle travels 90 kilometers in 3 hours, what is its speed? Speed is distance divided by time, so 90 km / 3 hours = 30 km/h.\"",
+        "output": "Your calculations are correct for the bicycle's speed. Just like the examples provided, you can calculate the speed by dividing the distance traveled by the time taken to travel that distance. \n\nFor the bicycle:\nDistance = 90 kilometers\nTime = 3 hours\n\nSpeed = Distance / Time\nSpeed = 90 km / 3 hours\nSpeed = 30 km/h\n\nSo, the bicycle's speed is 30 kilometers per hour."
+    },
+    {
+        "instruction": "Example 1: \"Convert 5 meters to centimeters. There are 100 centimeters in a meter, so 5 meters is 500 centimeters.\"\nExample 2: \"Convert 2 meters to centimeters. There are 100 centimeters in a meter, so 2 meters is 200 centimeters.\"\nMain Question: \"Convert 3 meters to centimeters. There are 100 centimeters in a meter, so 3 meters is...?\"",
+        "output": "Convert 3 meters to centimeters. There are 100 centimeters in a meter, so 3 meters is 300 centimeters."
+    },
+    {
+        "instruction": "Example 1: \"What is the sum of the angles in a triangle? A triangle has three angles. The sum of the angles in any triangle is 180 degrees because it is calculated by (n-2) * 180\u00b0, where n is the number of sides. For a triangle, n = 3, so (3-2) * 180\u00b0 = 180\u00b0.\"\nExample 2: \"What is the sum of the angles in a square? A square has four angles. The sum of the angles in any quadrilateral is 360 degrees, calculated as (n-2) * 180\u00b0, where n is the number of sides. For a square, n = 4, so (4-2) * 180\u00b0 = 360\u00b0.\"\nMain Question: \"What is the sum of the angles in a pentagon? A pentagon has five angles. The sum of the angles in a pentagon is calculated as (n-2) * 180\u00b0, where n is the number of sides. For a pentagon, n = 5, so (5-2) * 180\u00b0 =...?\"",
+        "output": "For a pentagon, which has five sides (n = 5), the sum of the angles can be calculated using the formula (n-2) * 180\u00b0:\n\n(5-2) * 180\u00b0 = 3 * 180\u00b0 = 540\u00b0\n\nSo, the sum of the angles in a pentagon is 540 degrees."
+    },
+    {
+        "instruction": "Example 1: \"If I have 3 cats and buy 2 more, how many cats do I have? Start with 3 cats, add 2 more. You have 5 cats.\"\nExample 2: \"If I have 4 dogs and get another, how many dogs do I have? Start with 4 dogs, add 1 more. You have 5 dogs.\"\nMain Question: \"If I have 6 birds and get 2 more, how many birds do I have? Start with 6 birds, add 2 more. You have...?\"",
+        "output": "If you start with 6 birds and add 2 more, you have 8 birds."
+    },
+    {
+        "instruction": "Example 1: \"What is the square of 2? To square a number, multiply it by itself: 2 * 2 = 4.\"\nExample 2: \"What is the square of 3? To square a number, multiply it by itself: 3 * 3 = 9.\"\nMain Question: \"What is the square of 5? To square a number, multiply it by itself: 5 * 5 =...?",
+        "output": "The square of 5 is obtained by multiplying 5 by itself: 5 * 5 = 25."
+    },
+    {
+        "instruction": "Example 1: \"If today is Monday, what day is it in 4 days? Today is Monday, in 4 days it will be Friday.\"\nExample 2: \"If today is Wednesday, what day is it in 3 days? Today is Wednesday, in 3 days it will be Saturday.\"\nMain Question: \"If today is Friday, what day is it in 5 days? Today is Friday, in 5 days it will be...?\"",
+        "output": "Today is Friday, in 5 days it will be Wednesday."
+    },
+    {
+        "instruction": "Example 1: \"Divide 10 by 2. First, take 10 and divide it by 2. The result is 5.\"\nExample 2: \"Divide 20 by 4. First, take 20 and divide it by 4. The result is 5.\"\nMain Question: \"Divide 30 by 6. First, take 30 and divide it by 6. The result is...?",
+        "output": "If you divide 30 by 6, the result is 5."
+    },
+    {
+        "instruction": "Example 1: \"How many edges does a cube have? A cube is a 3D shape with 6 faces, each being a square. Each square has 4 edges, but since each edge is shared between 2 faces, the total number of unique edges in a cube is 12.\"\nExample 2: \"How many edges does a tetrahedron have? A tetrahedron has 4 triangular faces. Each triangle has 3 edges, and since each edge is shared between 2 triangles, the tetrahedron has 6 unique edges.\"\nMain Question: \"How many edges does a pentagonal pyramid have? A pentagonal pyramid has a pentagonal base and triangular sides. The pentagon has 5 edges, and each triangle shares one edge with the pentagon, adding 5 more edges. So, how many total edges does a pentagonal pyramid have?",
+        "output": "To calculate the total number of edges of a pentagonal pyramid, we can break down the shape into its components:\n\n1. The base of the pentagonal pyramid is a pentagon, which has 5 edges.\n2. Each of the 5 triangular faces has 3 edges, but one of these edges is shared with the pentagon (the base). Therefore, each triangular face contributes 2 unique edges that do not belong to the base.\n\nSince there are 5 triangular faces, and each contributes 2 unique edges:\n\nUnique edges from the triangular faces = 5 triangles * 2 edges/triangle = 10 edges\n\nNow, we add the edges of the base:\n\nTotal edges = edges of the base + unique edges from the triangular faces\nTotal edges = 5 edges (pentagon) + 10 edges (triangular faces)\nTotal edges = 15 edges\n\nTherefore, a pentagonal pyramid has 15 edges in total."
+    },
+    {
+        "instruction": "Example 1: \"Convert 30 degrees Celsius to Fahrenheit. First, multiply 30 by 9/5 and then add 32. The result is 86\u00b0F.\"\nExample 2: \"Convert 20 degrees Celsius to Fahrenheit. First, multiply 20 by 9/5 and then add 32. The result is 68\u00b0F.\"\nMain Question: \"Convert 25 degrees Celsius to Fahrenheit. First, multiply 25 by 9/5 and then add 32. The result is...?\"",
+        "output": "To convert 25 degrees Celsius to Fahrenheit using the formula provided:\n\nFirst, multiply 25 by 9/5:\n25 * (9/5) = 25 * 1.8 = 45\n\nThen, add 32 to the result:\n45 + 32 = 77\n\nSo, 25 degrees Celsius is equal to 77 degrees Fahrenheit. The result is 77\u00b0F."
+    },
+    {
+        "instruction": "Example 1: \"Calculate 2 + 2. First, add 2 and 2. The sum is 4.\"\nExample 2: \"Calculate 5 + 3. First, add 5 and 3. The sum is 8.\"\nMain Question: \"Calculate 7 + 6. First, add 7 and 6. The sum is...?\"",
+        "output": "Calculate 7 + 6. First, add 7 and 6. The sum is 13."
+    },
+    {
+        "instruction": "Example 1: \"If I have 5 apples and eat 2, how many are left? First, start with 5 apples, then subtract 2. You have 3 apples left.\"\nExample 2: \"If I have 10 apples and give away 4, how many are left? First, start with 10 apples, then subtract 4. You have 6 apples left.\"\nMain Question: \"If I have 8 apples and eat 3, how many are left? First, start with 8 apples, then subtract 3. You have...?\"",
+        "output": "If you start with 8 apples and then subtract 3 (because you ate them), you have 5 apples left."
+    },
+    {
+        "instruction": "Example 1: \"Convert 10 kilometers to meters. 1 kilometer equals 1000 meters, so 10 kilometers equals 10,000 meters.\"\nExample 2: \"Convert 5 kilometers to meters. 1 kilometer equals 1000 meters, so 5 kilometers equals 5,000 meters.\"\nMain Question: \"Convert 15 kilometers to meters. 1 kilometer equals 1000 meters, so 15 kilometers equals...?\"",
+        "output": "15 kilometers equals 15,000 meters."
+    },
+    {
+        "instruction": "Example 1: \"If a batch of cookies takes 2 cups of sugar and you're making half a batch, how much sugar do you need? To find half, divide 2 cups by 2. Half of 2 cups is 1 cup.\"\nExample 2: \"If a cake recipe calls for 3 eggs and you double the recipe, how many eggs do you need? To double, multiply 3 by 2. Double 3 is 6.\"\nMain Question: \"If a pancake recipe needs 4 tablespoons of butter and you make one-third of a batch, how much butter do you need? To find one-third, divide 4 tablespoons by 3. One-third of 4 tablespoons is...?\"",
+        "output": "To find one-third of 4 tablespoons of butter, you divide 4 tablespoons by 3. \n\n\\( \\frac{4 \\text{ tablespoons}}{3} \\approx 1.3333 \\text{ tablespoons} \\).\n\nTherefore, one-third of 4 tablespoons is approximately 1 and 1/3 tablespoons of butter."
+    },
+    {
+        "instruction": "Example 1: \"What phase of matter is water at 100\u00b0C? At 100\u00b0C, water boils and becomes a gas.\"\nExample 2: \"What phase of matter is water at 0\u00b0C? At 0\u00b0C, water freezes and becomes a solid.\"\nMain Question: \"What phase of matter is water at 25\u00b0C? At 25\u00b0C, water is a...?\"",
+        "output": "At 25\u00b0C, water is in the liquid phase. This is because 25\u00b0C is well above the freezing point of water (0\u00b0C) and well below the boiling point of water (100\u00b0C) at standard atmospheric pressure."
+    },
+    {
+        "instruction": "Example 1: \"Who was the first president of the United States? First, think of the founding of the United States, then remember that George Washington was the first president.\"\nExample 2: \"Who discovered penicillin? First, consider the history of medicine, then remember that Alexander Fleming discovered penicillin.\"\nMain Question: \"Who was the main author of the Declaration of Independence? First, recall the American Revolution, then identify the main author of the document.\"",
+        "output": "The main author of the Declaration of Independence was Thomas Jefferson. He was tasked with drafting the original document which would later be reviewed and edited by the Committee of Five, including John Adams, Benjamin Franklin, Roger Sherman, and Robert Livingston, before it was presented to the Continental Congress. However, Jefferson is widely recognized as the primary writer of the Declaration."
+    },
+    {
+        "instruction": "Example 1: \"What is the capital of France? First, think of the country France, then recall that Paris is its capital.\"\nExample 2: \"What is the capital of Japan? First, consider the country Japan, then remember that Tokyo is its capital.\"\nMain Question: \"What is the capital of Canada? First, think about the country Canada, then identify its capital city.\"",
+        "output": "The capital of Canada is Ottawa. First, when you think about the country Canada, then you identify Ottawa as its capital city."
+    },
+    {
+        "instruction": "Example 1: \"How many minutes are in 2 hours? There are 60 minutes in an hour, so in 2 hours, there are 120 minutes.\"\nExample 2: \"How many minutes are in 3 hours? There are 60 minutes in an hour, so in 3 hours, there are 180 minutes.\"\nMain Question: \"How many minutes are in 4 hours? There are 60 minutes in an hour, so in 4 hours, there are...?\"",
+        "output": "There are 60 minutes in an hour, so in 4 hours, there are 240 minutes."
+    },
+    {
+        "instruction": "Example 1: \"If I save $200 a month, how much will I save in a year? Multiply 200 by 12: $200 * 12 = $2400.\"\nExample 2: \"If I save $300 a month, how much will I save in a year? Multiply 300 by 12: $300 * 12 = $3600.\"\nMain Question: \"If I save $500 a month, how much will I save in a year? Multiply 500 by 12: $500 * 12 =...?\"",
+        "output": "If you save $500 a month, to calculate how much you will save in a year, you would indeed multiply 500 by 12:\n\n$500 * 12 = $6000\n\nSo, you would save $6000 in a year."
+    },
+    {
+        "instruction": "Example 1: \"What is the perimeter of a square with a side of 4 meters? Perimeter is 4 times the side, so 4 * 4 meters = 16 meters.\"\nExample 2: \"What is the perimeter of a square with a side of 5 meters? Perimeter is 4 times the side, so 5 * 4 meters = 20 meters.\"\nMain Question: \"What is the perimeter of a square with a side of 6 meters? Perimeter is 4 times the side, so 6 * 4 meters =...?\"",
+        "output": "The perimeter of a square with a side of 6 meters is calculated by multiplying the length of one side by 4, because a square has four equal sides. Therefore, the perimeter P is given by:\n\nP = 6 meters * 4 = 24 meters."
+    }
+]
