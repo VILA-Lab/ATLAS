@@ -36,7 +36,7 @@ For our project, we initially crafted a set of principled, foundational question
 
 To generate instructions based on the principles:
    ```
-      python -m generate_instruction generate_instruction_following_data \
+   python -m generate_instruction generate_instruction_following_data \
   --output_dir ./ \
   --num_instructions_to_generate 10 \
   --model_name="gpt-4-1106-preview" \
