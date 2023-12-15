@@ -13,7 +13,7 @@ Our project includes two types of datasets, catering to different needs and rese
 
    1. **General Dataset (`general_dataset.json`)**: This comprehensive dataset combines all the examples from each of the 26 principles into a single file, offering a holistic view of our research and its diverse applications.
    
-      - File: [`general_dataset.json`]
+      - File: `general_dataset.json`
       - Structure:
         - Each entry contains an `instruction` field describing the task.
         - The `output` field provides the model-generated response to the instruction.
