@@ -1,8 +1,8 @@
-| #Principle | Prompt Principle | Example Instructions |
+| #Principle | Prompt Principle | Example Prompts |
 |------------|------------------| ---------------------|
 | 1          | Integrate the intended audience in the prompt | Construct an overview of how smartphones work, intended for seniors who have never used one before. |
-| 2          | Employ affirmative directives such as "do," while steering clear of negative language like "don’t." |
-| 3          | Implement example-driven prompting (Use few-shot prompting) |
+| 2          | Employ affirmative directives such as "do," while steering clear of negative language like "don’t." | How do buildings remain stable during earthquakes? |
+| 3          | Implement example-driven prompting (Use few-shot prompting) | Examples :\nA) integrate  y=x^2 ,   A: x^3/3 +c  .\nB) integrate  y=x^2 + x^5 +1 , A : x^3/3 + x^6/6 +x +c .\nC)integrate  y=2+5x , A:  2x+ 5x^2/2 +c  .\n\nQ: \nintegrate  y= 5x + 2x + 1 , A: |
 | 4          | When you need clarity or a deeper understanding of a topic, idea, or any piece of information, utilize the following prompts:<br>- Explain [insert specific topic] in simple terms.<br>- Explain to me like I'm 11 years old<br>- Explain to me as if I'm a beginner in [field]<br>- Explain to me as if I'm an expert in [field]<br>- “Write the [essay/text/paragraph] using simple English like you’re explaining something to a 5-year-old” |
 | 5          | When you want to initiate or continue a text using specific words, phrases, or sentences, utilize the following prompt:<br>- I'm providing you with the beginning [song lyrics/story/paragraph/essay...]:<br> [Insert lyrics/words/sentence]. Finish it based on the words provided. Keep the flow consistent. |
 | 6          | Use output primers, which involve concluding your prompt with the beginning of the desired output. Utilize output primers by ending your prompt with the start of the anticipated response |
