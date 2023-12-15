@@ -25,9 +25,9 @@ Our project includes two types of datasets, catering to different needs and rese
        "output": "As an expert economist, I would describe the key differences between capitalist and socialist economic systems along several dimensions:..."
       }
    
-   2. **Individual Principle Datasets (`Principle#.json`)**: We offer separate datasets for each of the 26 principles for a more focused study. These files allow researchers to explore and analyze data of specific principles in isolation.
+   2. **Individual Principle Datasets (`principle_{i}.json`)**: We offer separate datasets for each of the 26 principles for a more focused study. These files allow researchers to explore and analyze data of specific principles in isolation.
    
-      - Files: `Principle1.json`, `Principle2.json`, ..., `Principle26.json`
+      - Files: `principle_1.json`, `Principle_2.json`, ..., `Principle_26.json`
       Each file follows the same structure as the general dataset but contains examples only related to the respective principle.
 
 
