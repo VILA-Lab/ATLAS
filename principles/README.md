@@ -1,6 +1,6 @@
-| #Principle | Prompt Principle |
-|------------|------------------|
-| 1          | Integrate the intended audience in the prompt |
+| #Principle | Prompt Principle | Example Instructions |
+|------------|------------------| ---------------------|
+| 1          | Integrate the intended audience in the prompt | Construct an overview of how smartphones work, intended for seniors who have never used one before. |
 | 2          | Employ affirmative directives such as "do," while steering clear of negative language like "don’t." |
 | 3          | Implement example-driven prompting (Use few-shot prompting) |
 | 4          | When you need clarity or a deeper understanding of a topic, idea, or any piece of information, utilize the following prompts:<br>- Explain [insert specific topic] in simple terms.<br>- Explain to me like I'm 11 years old<br>- Explain to me as if I'm a beginner in [field]<br>- Explain to me as if I'm an expert in [field]<br>- “Write the [essay/text/paragraph] using simple English like you’re explaining something to a 5-year-old” |
