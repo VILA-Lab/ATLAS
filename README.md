@@ -13,7 +13,7 @@ Our project includes two types of datasets, catering to different needs and rese
 
 1. **General Dataset (`general_dataset.json`)**: This comprehensive dataset combines all the examples from each of the 26 principles into a single file, offering a holistic view of our research and its diverse applications.
 
-   - File: [`general_dataset.json`](./general_dataset.json)
+   - File: [`general_dataset.json`]
    - Structure:
      - Each entry contains an `instruction` field describing the task.
      - The `output` field provides the model-generated response to the instruction.
@@ -21,13 +21,17 @@ Our project includes two types of datasets, catering to different needs and rese
    Example:
    ```json
    {
-       "instruction": "Provide an instruction example",
-       "output": "Model-generated response corresponding to the instruction"
+    "instruction": "If you were an expert economist, how would you answer: What are the key differences between a capitalist and a socialist economic system?",
+    "output": "As an expert economist, I would describe the key differences between capitalist and socialist economic systems along several dimensions:..."
    }
+
 2. **Individual Principle Datasets (`Principle#.json`)**: We offer separate datasets for each of the 26 principles for a more focused study. These files allow researchers to explore and analyze data of specific principles in isolation.
 
 - Files: `Principle1.json`, `Principle2.json`, ..., `Principle26.json`
 Each file follows the same structure as the general dataset but contains examples only related to the respective principle.
-Example in Principle1.json:
+
+
+## Data Generation
+For our project, we initially crafted a set of principled, foundational questions manually to establish a robust baseline. These questions were carefully crafted to cover a wide range of topics and complexities, ensuring a comprehensive starting point for our instruction generation process. Following this, we used the GPT-4 API to expand our question repository. It was tasked with generating new questions that were semantically and thematically related to our manually created ones.
 
 
