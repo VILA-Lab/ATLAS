@@ -1,14 +1,24 @@
+<p align="center" width="100%">
+<img src="assets/logo.png" alt="Atlas" style="width: 50%; min-width: 300px; display: block; margin: auto;">
+</p>
 
 [![Data License](https://img.shields.io/badge/Data%20License-Apache_2.0-green.svg)](https://github.com/aidarmyrzakhan/Atlas-A-LLM-Inquiry-Principle-Benchmark/blob/main/LICENSE.md)
 [![Python 3.10+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 # Atlas: A LLM Inquiry Principle Benchmark
 
 This repository contains resources and research on formulating effective queries and prompts for large language models (LLMs). The primary contribution is the introduction of 26 guiding principles aimed at optimizing interactions with LLMs of various scales, such as LLaMA-1/2, GPT-3.5, and GPT-4.
 
+[//]: # (![demo]&#40;assest/demo.png | width=100&#41;)
+[<img src="assets/demo.png" width="750" />](./assets/demo.png)
+
 ## Overview
 
 Our work aims to simplify the underlying concepts of formulating questions for different scales of large language models. By examining their abilities and enhancing user comprehension, we focus on optimizing the design of instructions and prompts. Extensive experiments conducted on models like LLaMA-1/2 and GPT-3.5/4 have verified the effectiveness of the proposed principles. 
+
+[//]: # (![distribution]&#40;assets/distribution.png | width=100&#41;)
+[<img src="assets/distribution.png" width="750" />](./assets/distribution.png)
 
 ## Data Release
 
