@@ -1,4 +1,7 @@
-[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/aidarmyrzakhan/Atlas-A-LLM-Inquiry-Principle-Benchmark/blob/main/LICENSE.md)
+
+[![Data License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/aidarmyrzakhan/Atlas-A-LLM-Inquiry-Principle-Benchmark/blob/main/LICENSE.md)
+[![Python 3.10+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 # Atlas: A LLM Inquiry Principle Benchmark
 
 This repository contains resources and research on formulating effective queries and prompts for large language models (LLMs). The primary contribution is the introduction of 26 guiding principles aimed at optimizing interactions with LLMs of various scales, such as LLaMA-1/2, GPT-3.5, and GPT-4.
@@ -14,7 +17,7 @@ Our project includes two types of datasets, catering to different needs and rese
 
    1. **General Dataset (`general_dataset.json`)**: This comprehensive dataset combines all the examples from each of the 26 principles into a single file, offering a holistic view of our research and its diverse applications.
    
-      - File: `general_dataset.json`
+      - File: [`general_dataset.json`](./data/general_dataset.json)
       - Structure:
         - Each entry contains an `instruction` field describing the task.
         - The `output` field provides the model-generated response to the instruction.
