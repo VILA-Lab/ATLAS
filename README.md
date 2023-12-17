@@ -12,7 +12,7 @@ Our work aims to simplify the underlying concepts of formulating questions for d
 
 ## Data Release
 
-Our dataset, comprising 10k data points, supports the study of LLM prompting principles. The data is curated to facilitate understanding and application of the 26 principles. 
+Our dataset, comprising 10k data points, supports the study of LLM prompting principles. The data is curated to facilitate understanding and application of the [`26 principles`](./data/README.md). 
 Our project includes two types of datasets, catering to different needs and research focuses:
 
    1. **General Dataset (`general_dataset.json`)**: This comprehensive dataset combines all the examples from each of the 26 principles into a single file, offering a holistic view of our research and its diverse applications.
