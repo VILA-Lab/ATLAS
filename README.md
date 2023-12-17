@@ -1,6 +1,3 @@
-<p align="center" width="100%">
-<img src="assets/logo.png" alt="Atlas" style="width: 50%; min-width: 300px; display: block; margin: auto;">
-</p>
 
 [![Data License](https://img.shields.io/badge/Data%20License-Apache_2.0-green.svg)](https://github.com/aidarmyrzakhan/Atlas-A-LLM-Inquiry-Principle-Benchmark/blob/main/LICENSE.md)
 [![Python 3.10+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
