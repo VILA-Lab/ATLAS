@@ -6,7 +6,7 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-# ATLAS
+# ATLAS: A LLM Inquiry Principle Benchmark
 
 This repository contains resources and research on formulating effective queries and prompts for large language models (LLMs). The primary contribution is the introduction of 26 guiding principles aimed at optimizing interactions with LLMs of various scales, such as LLaMA-1/2, GPT-3.5, and GPT-4.
 
@@ -58,9 +58,7 @@ To generate instructions based on the principles:
 
 ## Citation
    
-   ```
-   
-   ```
+
 
 ## Contributing
 We welcome contributions and suggestions to improve our principles and expand the dataset.
