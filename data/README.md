@@ -1,3 +1,4 @@
+# Overview of 26 prompt principles
 | #Principle | Prompt Principle | Example Prompts |
 |------------|------------------| ---------------------|
 | 1          | No need to be polite with LLM so there is no need to add phrases like “please", "if you don't mind", "thank you", "I would like to", etc., and get straight to the point | Could you kindly describe the structure of a human cell, please? |
