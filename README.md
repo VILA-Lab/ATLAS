@@ -56,10 +56,6 @@ To generate instructions based on the principles:
   --model_name="gpt-4-1106-preview" \
    ```
 
-## Authors
-   - Sondos Mahmoud Bsharat
-   - Zhiqiang Shen
-   - Aidar Myrzakhan
 
 ## Citation
    
