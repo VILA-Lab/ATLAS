@@ -58,7 +58,15 @@ To generate instructions based on the principles:
 
 
 ## Citation
-   
+
+```
+@inproceedings{Sondos2023principled,
+  title={Principled Instructions Are All You Need for Questioning LLaMA-1/2, GPT-3.5/4},
+  author={Sondos Mahmoud Bsharat, Aidar Myrzakhan, Zhiqiang Shen},
+  booktitle={Preprint},
+  year={2023},
+}
+```
 
 
 ## Contributing
