@@ -56,6 +56,7 @@ To generate instructions based on the principles:
   --model_name="gpt-4-1106-preview" \
    ```
 
+## Pincipled Instruction Finetuning
 
 ## Citation
 
