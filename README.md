@@ -48,14 +48,6 @@ Our project includes two types of datasets, catering to different needs and rese
 ## Data Generation
 For our project, we initially crafted a set of principled, foundational questions manually to establish a robust baseline. These questions were carefully crafted to cover a wide range of topics and complexities, ensuring a comprehensive starting point for our instruction generation process. Following this, we used the GPT-4 API to expand our question repository. It was tasked with generating new questions that were semantically and thematically related to our manually created ones.
 
-To generate instructions based on the principles:
-   ```
-   python -m generate_instruction generate_instruction_following_data \
-  --output_dir ./ \
-  --num_instructions_to_generate 10 \
-  --model_name="gpt-4-1106-preview" \
-   ```
-
 ## Pincipled Instruction Finetuning
 
 Our benchmark is compatible with [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) or [FastChat](https://github.com/lm-sys/FastChat). We will provide the fintuned models soon.
