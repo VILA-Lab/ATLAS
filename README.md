@@ -73,3 +73,5 @@ To generate instructions based on the principles:
 We welcome contributions and suggestions to improve our principles and expand the dataset.
 
 ## Acknowledgements
+
+[Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca)
