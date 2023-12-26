@@ -56,7 +56,7 @@ To generate instructions based on the principles:
 
 ## Pincipled Instruction Finetuning
 
-Our benchmark is compatible with [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) or [FastChat](https://github.com/lm-sys/FastChat). We will provide the fintuned models soon.
+Our benchmark is compatible with [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) or [FastChat](https://github.com/lm-sys/FastChat). We will further provide the finetuned models.
 
 ## Citation
 
