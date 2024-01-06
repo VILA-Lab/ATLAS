@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-<img src="assets/logo.png" alt="Owl" style="width: 25%; min-width: 150px; display: block; margin: auto;">
+<img src="assets/logo.png" alt="Owl" style="width: 28%; min-width: 150px; display: block; margin: auto;">
 </p>
 
 [![Data License](https://img.shields.io/badge/Data%20License-Apache_2.0-green.svg)](https://github.com/aidarmyrzakhan/Atlas-A-LLM-Inquiry-Principle-Benchmark/blob/main/LICENSE.md)
