@@ -1,7 +1,7 @@
 # Overview of 26 prompt principles
 | #Principle | Prompt Principle | Example Prompt |
 |:------------:|------------------| ---------------------|
-| 1          | If you prefer more concise answers, no need to be polite with LLM so there is no need to add phrases like “please", "if you don't mind", "thank you", "I would like to", etc., and get straight to the point. | Could you kindly describe the structure of a human cell, please? |
+| 1          | If you prefer more concise answers, no need to be polite with LLM so there is no need to add phrases like “please", "if you don't mind", "thank you", "I would like to", etc., and get straight to the point. | ~~Could you kindly describe the structure of a human cell, please?~~ Describe the structure of a human cell. |
 | 2          |  Integrate the intended audience in the prompt, e.g., the audience is an expert in the field.  | Construct an overview of how smartphones work, intended for seniors who have never used one before. |
 | 3          | Break down complex tasks into a sequence of simpler prompts in an interactive conversation. | Prompt: Distribute the negative sign to each term inside the parentheses of the following equation: 2x + 3y - (4x - 5y) Prompt: Combine like terms for 'x' and 'y' separately. Prompt: Provide the simplified expression after combining the terms. |
 | 4          | Employ affirmative directives such as "do," while steering clear of negative language like "don't". | How do buildings remain stable during earthquakes? |
