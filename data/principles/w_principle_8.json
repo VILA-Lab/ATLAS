@@ -168,7 +168,7 @@
         "llama1-7b_output": "  The currency used in Japan is the Japanese yen (JPY)."
     },
     {
-        "instruction": "###Task###\nList three major oceans.\n### Response ###\n_____, _____, _____.",
+        "instruction": "###Instruction###\nList three major oceans.\n### Response ###\n_____, _____, _____.",
         "gpt4_output1": "Pacific, Atlantic, Indian.",
         "gpt4_output2": "Pacific, Atlantic, Indian.",
         "gpt4_output3": "Pacific Ocean, Atlantic Ocean, Indian Ocean.",
@@ -196,7 +196,7 @@
         "llama1-7b_output": "  The three major oceans are the Pacific Ocean, the Atlantic Ocean, and the Indian Ocean."
     },
     {
-        "instruction": "###Command###\nIdentify the gas we breathe out.\n### Outcome ###\n_____.",
+        "instruction": "###Instruction###\nIdentify the gas we breathe out.\n### Outcome ###\n_____.",
         "gpt4_output1": "Carbon dioxide.",
         "gpt4_output2": "Carbon dioxide.",
         "gpt4_output3": "Carbon dioxide.",
@@ -224,7 +224,7 @@
         "llama1-7b_output": "   The gas that we breathe out is carbon dioxide (CO2)."
     },
     {
-        "instruction": "###Prompt###\nWhich metal is represented by the symbol 'Au'?\n### Feedback ###\n_____.",
+        "instruction": "###Instruction###\n\nWhich metal is represented by the symbol 'Au'?\n### Feedback ###\n_____.",
         "gpt4_output1": "Gold.",
         "gpt4_output2": "Gold.",
         "gpt4_output3": "Gold.",
@@ -280,7 +280,7 @@
         "llama1-7b_output": "   The principle behind the sequence is that each term is the sum of the previous two terms. Starting with 1, the next term would be 1 (as the previous two terms are 1 and 1), and the next term after that would be 2 (as the previous two terms are 1 and 1). The sequence continues in this way, with each term being the sum of the previous two terms."
     },
     {
-        "instruction": "###Backdrop###\nKey figures in the world of physics.\n###Instruction###\nDetermine the scientist being referred to.\n### Question ###\nWhich physicist is credited with the discovery of the law of gravitation?",
+        "instruction": "###Instruction###\nDetermine the scientist being referred to.\n### Question ###\nWhich physicist is credited with the discovery of the law of gravitation?",
         "gpt4_output1": "The physicist credited with the discovery of the law of gravitation is Sir Isaac Newton.",
         "gpt4_output2": "The physicist credited with the discovery of the law of gravitation is Sir Isaac Newton.",
         "gpt4_output3": "The physicist credited with the discovery of the law of gravitation is Sir Isaac Newton.",
@@ -308,7 +308,7 @@
         "llama1-7b_output": "    The scientist credited with the discovery of the law of gravitation is Sir Isaac Newton."
     },
     {
-        "instruction": "###Setting###\nPopular fruits are known for their appealing colors and sweet flavors.\n###Instruction###\nIdentify the fruit described.\n### Question ###\nWhich fruit, commonly found in tropical regions, has a rough exterior, is yellow on the inside, and is especially juicy?",
+        "instruction": "###Instruction###\nIdentify the fruit described.\n###Setting###\nPopular fruits are known for their appealing colors and sweet flavors.\n### Question ###\nWhich fruit, commonly found in tropical regions, has a rough exterior, is yellow on the inside, and is especially juicy?",
         "gpt4_output1": "The fruit that fits this description is likely a pineapple. Pineapples have a rough, tough exterior, are yellow on the inside, known for their juiciness, and are commonly found in tropical regions.",
         "gpt4_output2": "The fruit you are describing is most likely the pineapple. It is widely known for its tough, spiky exterior, sweet yellow flesh on the inside, and its juicy texture. Pineapples are indeed common in tropical regions.",
         "gpt4_output3": "The fruit described is a pineapple.",
@@ -336,7 +336,7 @@
         "llama1-7b_output": "    The fruit described is likely a papaya."
     },
     {
-        "instruction": "###Environment###\nMajor conflicts of the 20th century involved many countries.\n###Instruction###\nName the historical event.\n### Question ###\nWhich large-scale war commenced in 1939 and concluded in 1945, seeing major battles in Europe, Asia, and other parts of the world?",
+        "instruction": "###Instruction###\nName the historical event.\n###Environment###\nMajor conflicts of the 20th century involved many countries.\n### Question ###\nWhich large-scale war commenced in 1939 and concluded in 1945, seeing major battles in Europe, Asia, and other parts of the world?",
         "gpt4_output1": "The historical event you are referring to is World War II.",
         "gpt4_output2": "World War II",
         "gpt4_output3": "World War II",
@@ -364,7 +364,7 @@
         "llama1-7b_output": "    The historical event that commenced in 1939 and concluded in 1945, and saw major battles in Europe, Asia, and other parts of the world, is World War II."
     },
     {
-        "instruction": "###Backdrop###\nPlanets in our solar system.\n###Instruction###\nIdentify the planet.\n### Question ###\nWhich planet, known for its striking red appearance, is often referred to as the 'Red Planet'?",
+        "instruction": "###Instruction###\nIdentify the planet.\n### Question ###\nWhich planet, known for its striking red appearance, is often referred to as the 'Red Planet'?",
         "gpt4_output1": "The planet known for its striking red appearance and often referred to as the 'Red Planet' is Mars.",
         "gpt4_output2": "The planet known for its striking red appearance and often referred to as the 'Red Planet' is Mars.",
         "gpt4_output3": "The planet known for its striking red appearance and often referred to as the 'Red Planet' is Mars.",
@@ -392,7 +392,7 @@
         "llama1-7b_output": "    The planet known for its striking red appearance and often referred to as the 'Red Planet' is Mars."
     },
     {
-        "instruction": "###Setting###\nRenowned physicists who developed groundbreaking theories.\n###Instruction###\nDetermine the scientist.\n### Question ###\nWho is best known for the theory of relativity and the famous equation E=mc^2?",
+        "instruction": "###Instruction###\nDetermine the scientist.\n### Question ###\nWho is best known for the theory of relativity and the famous equation E=mc^2?",
         "gpt4_output1": "The scientist best known for the theory of relativity and the famous equation E=mc^2 is Albert Einstein.",
         "gpt4_output2": "The scientist best known for the theory of relativity and the famous equation E=mc^2 is Albert Einstein.",
         "gpt4_output3": "The scientist best known for the theory of relativity and the famous equation E=mc^2 is Albert Einstein.",
