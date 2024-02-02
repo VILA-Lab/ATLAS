@@ -278,7 +278,7 @@
         "gpt4_conversations": [
             {
                 "from": "human",
-                "value": "Help me create engaging social media posts. Please ask me questions to understand my target audience, platform, and content style."
+                "value": "Help me create engaging social media posts. Ask me questions to understand my target audience, platform, and content style."
             },
             {
                 "from": "gpt4",
@@ -296,7 +296,7 @@
         "gpt3.5_conversations": [
             {
                 "from": "human",
-                "value": "Help me create engaging social media posts. Please ask me questions to understand my target audience, platform, and content style."
+                "value": "Help me create engaging social media posts. Ask me questions to understand my target audience, platform, and content style."
             },
             {
                 "from": "gpt3.5",
@@ -314,7 +314,7 @@
         "llama2-70b_conversations": [
             {
                 "from": "human",
-                "value": "Help me create engaging social media posts. Please ask me questions to understand my target audience, platform, and content style."
+                "value": "Help me create engaging social media posts. Ask me questions to understand my target audience, platform, and content style."
             },
             {
                 "from": "llama2-70b",
@@ -332,7 +332,7 @@
         "llama2-13b_conversations": [
             {
                 "from": "human",
-                "value": "Help me create engaging social media posts. Please ask me questions to understand my target audience, platform, and content style."
+                "value": "Help me create engaging social media posts. Ask me questions to understand my target audience, platform, and content style."
             },
             {
                 "from": "llama2-13b",
@@ -350,7 +350,7 @@
         "llama2-7b_conversations": [
             {
                 "from": "human",
-                "value": "Help me create engaging social media posts. Please ask me questions to understand my target audience, platform, and content style."
+                "value": "Help me create engaging social media posts. Ask me questions to understand my target audience, platform, and content style."
             },
             {
                 "from": "llama2-7b",
@@ -368,7 +368,7 @@
         "llama1-13b_conversations": [
             {
                 "from": "human",
-                "value": "Help me create engaging social media posts. Please ask me questions to understand my target audience, platform, and content style."
+                "value": "Help me create engaging social media posts. Ask me questions to understand my target audience, platform, and content style."
             },
             {
                 "from": "llama1-13b",
@@ -386,7 +386,7 @@
         "llama1-7b_conversations": [
             {
                 "from": "human",
-                "value": "Help me create engaging social media posts. Please ask me questions to understand my target audience, platform, and content style."
+                "value": "Help me create engaging social media posts. Ask me questions to understand my target audience, platform, and content style."
             },
             {
                 "from": "llama1-7b",
@@ -1058,11 +1058,11 @@
         ]
     },
     {
-        "Instruction": "From now on, please ask me questions until you have enough information to create a personalized fitness routine.",
+        "Instruction": "From now on, Ask me questions until you have enough information to create a personalized fitness routine.",
         "gpt4_conversations": [
             {
                 "from": "human",
-                "value": "From now on, please ask me questions until you have enough information to create a personalized fitness routine."
+                "value": "From now on, Ask me questions until you have enough information to create a personalized fitness routine."
             },
             {
                 "from": "gpt4",
@@ -1080,7 +1080,7 @@
         "gpt3.5_conversations": [
             {
                 "from": "human",
-                "value": "From now on, please ask me questions until you have enough information to create a personalized fitness routine."
+                "value": "From now on, Ask me questions until you have enough information to create a personalized fitness routine."
             },
             {
                 "from": "gpt3.5",
@@ -1098,7 +1098,7 @@
         "llama2-70b_conversations": [
             {
                 "from": "human",
-                "value": "From now on, please ask me questions until you have enough information to create a personalized fitness routine."
+                "value": "From now on, Ask me questions until you have enough information to create a personalized fitness routine."
             },
             {
                 "from": "llama2-70b",
@@ -1116,7 +1116,7 @@
         "llama2-13b_conversations": [
             {
                 "from": "human",
-                "value": "From now on, please ask me questions until you have enough information to create a personalized fitness routine."
+                "value": "From now on, Ask me questions until you have enough information to create a personalized fitness routine."
             },
             {
                 "from": "llama2-13b",
@@ -1142,7 +1142,7 @@
         "llama2-7b_conversations": [
             {
                 "from": "human",
-                "value": "From now on, please ask me questions until you have enough information to create a personalized fitness routine."
+                "value": "From now on, Ask me questions until you have enough information to create a personalized fitness routine."
             },
             {
                 "from": "llama2-7b",
@@ -1200,7 +1200,7 @@
         "llama1-13b_conversations": [
             {
                 "from": "human",
-                "value": "From now on, please ask me questions until you have enough information to create a personalized fitness routine."
+                "value": "From now on, Ask me questions until you have enough information to create a personalized fitness routine."
             },
             {
                 "from": "llama1-13b",
@@ -1314,7 +1314,7 @@
         "llama1-7b_conversations": [
             {
                 "from": "human",
-                "value": "From now on, please ask me questions until you have enough information to create a personalized fitness routine."
+                "value": "From now on, Ask me questions until you have enough information to create a personalized fitness routine."
             },
             {
                 "from": "llama1-7b",
@@ -1600,11 +1600,11 @@
         ]
     },
     {
-        "Instruction": "Please gather information by asking me questions until you have enough details to help me choose the ideal destination for a weekend getaway.",
+        "Instruction": "Gather information by asking me questions until you have enough details to help me choose the ideal destination for a weekend getaway.",
         "gpt4_conversations": [
             {
                 "from": "human",
-                "value": "Please gather information by asking me questions until you have enough details to help me choose the ideal destination for a weekend getaway."
+                "value": "Gather information by asking me questions until you have enough details to help me choose the ideal destination for a weekend getaway."
             },
             {
                 "from": "gpt4",
@@ -1622,7 +1622,7 @@
         "gpt3.5_conversations": [
             {
                 "from": "human",
-                "value": "Please gather information by asking me questions until you have enough details to help me choose the ideal destination for a weekend getaway."
+                "value": "Gather information by asking me questions until you have enough details to help me choose the ideal destination for a weekend getaway."
             },
             {
                 "from": "gpt3.5",
@@ -1640,7 +1640,7 @@
         "llama2-70b_conversations": [
             {
                 "from": "human",
-                "value": "Please gather information by asking me questions until you have enough details to help me choose the ideal destination for a weekend getaway."
+                "value": "Gather information by asking me questions until you have enough details to help me choose the ideal destination for a weekend getaway."
             },
             {
                 "from": "llama2-70b",
@@ -1674,7 +1674,7 @@
         "llama2-13b_conversations": [
             {
                 "from": "human",
-                "value": "Please gather information by asking me questions until you have enough details to help me choose the ideal destination for a weekend getaway."
+                "value": "Gather information by asking me questions until you have enough details to help me choose the ideal destination for a weekend getaway."
             },
             {
                 "from": "llama2-13b",
@@ -1748,7 +1748,7 @@
         "llama2-7b_conversations": [
             {
                 "from": "human",
-                "value": "Please gather information by asking me questions until you have enough details to help me choose the ideal destination for a weekend getaway."
+                "value": "Gather information by asking me questions until you have enough details to help me choose the ideal destination for a weekend getaway."
             },
             {
                 "from": "llama2-7b",
@@ -1766,7 +1766,7 @@
         "llama1-13b_conversations": [
             {
                 "from": "human",
-                "value": "Please gather information by asking me questions until you have enough details to help me choose the ideal destination for a weekend getaway."
+                "value": "Gather information by asking me questions until you have enough details to help me choose the ideal destination for a weekend getaway."
             },
             {
                 "from": "llama1-13b",
@@ -1784,7 +1784,7 @@
         "llama1-7b_conversations": [
             {
                 "from": "human",
-                "value": "Please gather information by asking me questions until you have enough details to help me choose the ideal destination for a weekend getaway."
+                "value": "Gather information by asking me questions until you have enough details to help me choose the ideal destination for a weekend getaway."
             },
             {
                 "from": "llama1-7b",
@@ -3175,11 +3175,11 @@
         ]
     },
     {
-        "Instruction": "Please gather information by asking me questions until you've gathered enough details to suggest a personalized morning routine.",
+        "Instruction": "Gather information by asking me questions until you've gathered enough details to suggest a personalized morning routine.",
         "gpt4_conversations": [
             {
                 "from": "human",
-                "value": "Please gather information by asking me questions until you've gathered enough details to suggest a personalized morning routine."
+                "value": "Gather information by asking me questions until you've gathered enough details to suggest a personalized morning routine."
             },
             {
                 "from": "gpt4",
@@ -3207,7 +3207,7 @@
         "llama2-70b_conversations": [
             {
                 "from": "human",
-                "value": "Please gather information by asking me questions until you've gathered enough details to suggest a personalized morning routine."
+                "value": "Gather information by asking me questions until you've gathered enough details to suggest a personalized morning routine."
             },
             {
                 "from": "llama2-70b",
@@ -3225,7 +3225,7 @@
         "llama2-13b_conversations": [
             {
                 "from": "human",
-                "value": "Please gather information by asking me questions until you've gathered enough details to suggest a personalized morning routine."
+                "value": "Gather information by asking me questions until you've gathered enough details to suggest a personalized morning routine."
             },
             {
                 "from": "llama2-13b",
@@ -3243,7 +3243,7 @@
         "llama2-7b_conversations": [
             {
                 "from": "human",
-                "value": "Please gather information by asking me questions until you've gathered enough details to suggest a personalized morning routine."
+                "value": "Gather information by asking me questions until you've gathered enough details to suggest a personalized morning routine."
             },
             {
                 "from": "llama2-7b",
@@ -3269,7 +3269,7 @@
         "llama1-13b_conversations": [
             {
                 "from": "human",
-                "value": "Please gather information by asking me questions until you've gathered enough details to suggest a personalized morning routine."
+                "value": "Gather information by asking me questions until you've gathered enough details to suggest a personalized morning routine."
             },
             {
                 "from": "llama1-13b",
@@ -3287,7 +3287,7 @@
         "llama1-7b_conversations": [
             {
                 "from": "human",
-                "value": "Please gather information by asking me questions until you've gathered enough details to suggest a personalized morning routine."
+                "value": "Gather information by asking me questions until you've gathered enough details to suggest a personalized morning routine."
             },
             {
                 "from": "llama1-7b",
