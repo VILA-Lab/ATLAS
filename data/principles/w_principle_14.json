@@ -274,7 +274,7 @@
         ]
     },
     {
-        "Instruction": "Help me create engaging social media posts. Please ask me questions to understand my target audience, platform, and content style.",
+        "Instruction": "Help me create engaging social media posts. Ask me questions to understand my target audience, platform, and content style.",
         "gpt4_conversations": [
             {
                 "from": "human",
