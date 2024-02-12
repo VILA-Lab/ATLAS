@@ -29,8 +29,8 @@ Our project includes two types of datasets, catering to different needs and rese
    
       - File: [`general_dataset.json`](./data/general_dataset.json)
       - Structure:
-        - Each entry contains an `instruction` field describing the task.
-        - The `{model_name}_output` field provides the model-generated response to the instruction.
+        - Each entry contains an `Instruction` field describing the task.
+        - The `{model_name}_conversations` field provides the model-generated response to the instruction.
    
       Example:
       ```json
