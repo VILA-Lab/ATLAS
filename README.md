@@ -22,7 +22,7 @@ Our work aims to simplify the underlying concepts of formulating questions for d
 
 ## Data Release
 
-Our dataset, comprising 12.5k data points, supports the study of LLM prompting principles. The data is curated to facilitate understanding and application of the [`26 principles`](./data/README.md). 
+Our dataset, comprising 13k data points, supports the study of LLM prompting principles. The data is curated to facilitate understanding and application of the [`26 principles`](./data/README.md). 
 Our project includes two types of datasets, catering to different needs and research focuses:
 
    1. **General Dataset (`general_dataset.json`)**: This comprehensive dataset combines all the examples from each of the 26 principles into a single file, offering a holistic view of our research and its diverse applications.
@@ -30,29 +30,36 @@ Our project includes two types of datasets, catering to different needs and rese
       - File: [`general_dataset.json`](./data/general_dataset.json)
       - Structure:
         - Each entry contains an `instruction` field describing the task.
-        - The `output` field provides the model-generated response to the instruction.
+        - The `{model_name}_output` field provides the model-generated response to the instruction.
    
       Example:
       ```json
       {
-       "instruction": "If you were an expert economist, how would you answer: What are the key differences between a capitalist and a socialist economic system?",
-       "output": "As an expert economist, I would describe the key differences between capitalist and socialist economic systems along several dimensions:..."
+        "Instruction": "If you replaced the thymine in a double helix with radioactive...",
+        "gpt4_conversations": [
+            {
+                "from": "human",
+                "value": "If you replaced the thymine in a double helix with radioactive..."
+            },
+            {
+                "from": "gpt4",
+                "value": "If you replaced the thymine in a double helix..."
+            }
+        ],
+        "gpt3.5_conversations": [
+            {
+                "from": "human",
+                "value": "If you replaced the thymine in a double helix with radioactive thymine..."
+            },
+            {
+                "from": "gpt3.5",
+                "value": "The correct answer is D: The DNA in one of the double helices would be radioactive..."
+            }
+        ],
+        ...
       }
    
-   2. **Individual Principle Datasets (`principle_{i}.json`)**: We offer separate datasets for each of the 26 principles for a more focused study. These files allow researchers to explore and analyze data of specific principles in isolation.
-   
-      - Files: `principle_1.json`, `Principle_2.json`, ..., `Principle_26.json`
-      Each file follows the same structure as the general dataset but contains examples only related to the respective principle.
-
-
-## Data Generation
-For our project, we initially crafted a set of principled, foundational questions manually to establish a robust baseline. These questions were carefully crafted to cover a wide range of topics and complexities, ensuring a comprehensive starting point for our instruction generation process. Following this, we used the GPT-4 API to expand our question repository. It was tasked with generating new questions that were semantically and thematically related to our manually created ones.
-
-To generate instructions based on the principles:
-   ```
-   python generate.py
-   ```
-
+   2. **Individual Principle Datasets**: We offer separate datasets for [`boosting`](./data/principles/boosting) and [`correctness`](./data/principles/correctness) for each of the 26 principles for a more focused study. These files allow researchers to explore and analyze data of specific principles in isolation.
 
 ## Principled Instruction Finetuning
 
