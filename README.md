@@ -35,29 +35,19 @@ Our project includes two types of datasets, catering to different needs and rese
       Example:
       ```json
       {
-        "Instruction": "If you replaced the thymine in a double helix with radioactive...",
-        "gpt4_conversations": [
-            {
-                "from": "human",
-                "value": "If you replaced the thymine in a double helix with radioactive..."
-            },
-            {
-                "from": "gpt4",
-                "value": "If you replaced the thymine in a double helix..."
-            }
-        ],
-        "gpt3.5_conversations": [
-            {
-                "from": "human",
-                "value": "If you replaced the thymine in a double helix with radioactive thymine..."
-            },
-            {
-                "from": "gpt3.5",
-                "value": "The correct answer is D: The DNA in one of the double helices would be radioactive..."
-            }
-        ],
-        ...
-      }
+      "id": "identity_0",
+      "model": "gpt4",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "Explain the process of photosynthesis."
+        },
+        {
+          "from": "gpt",
+          "value": "Photosynthesis is a biochemical process..."
+        }
+      ]
+    },
    
    2. **Individual Principle Datasets**: We offer separate datasets for [`boosting`](./data/principles/boosting) and [`correctness`](./data/principles/correctness) for each of the 26 principles for a more focused study. These files allow researchers to explore and analyze data of specific principles in isolation.
 
