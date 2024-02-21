@@ -35,19 +35,19 @@ Our project includes two types of datasets, catering to different needs and rese
       Example:
       ```json
       {
-      "id": "identity_0",
-      "model": "gpt4",
-      "conversations": [
-        {
-          "from": "human",
-          "value": "Explain the process of photosynthesis."
-        },
-        {
-          "from": "gpt",
-          "value": "Photosynthesis is a biochemical process..."
-        }
-      ]
-    },
+         "id": "identity_0",
+         "model": "gpt4",
+         "conversations": [
+           {
+             "from": "human",
+             "value": "Explain the process of photosynthesis."
+           },
+           {
+             "from": "gpt",
+             "value": "Photosynthesis is a biochemical process..."
+           }
+         ]
+       },
    
    2. **Individual Principle Datasets**: We offer separate datasets for [`boosting`](./data/principles/boosting) and [`correctness`](./data/principles/correctness) for each of the 26 principles for a more focused study. These files allow researchers to explore and analyze data of specific principles in isolation.
 
