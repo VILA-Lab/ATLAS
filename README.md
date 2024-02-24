@@ -55,6 +55,10 @@ Our project includes two types of datasets, catering to different needs and rese
 
 Our benchmark is compatible with [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) or [FastChat](https://github.com/lm-sys/FastChat). We will further provide the finetuned models.
 
+## Third-party Apps
+
+[Prompt-builder](https://github.com/lypsoty112/Prompt-builder) tool and its [online version](https://promptbuilder.streamlit.app/), thanks [lypsoty112](https://github.com/lypsoty112) for the contributions!
+
 ## Citation
 
 ```
@@ -65,7 +69,6 @@ Our benchmark is compatible with [Stanford Alpaca](https://github.com/tatsu-lab/
   year={2023},
 }
 ```
-
 
 ## Contributing
 We welcome contributions and suggestions to improve our principles and expand the dataset.
