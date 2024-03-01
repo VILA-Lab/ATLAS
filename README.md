@@ -57,7 +57,9 @@ Our benchmark is compatible with [Stanford Alpaca](https://github.com/tatsu-lab/
 
 ## Third-party Apps
 
-[Prompt-builder](https://github.com/lypsoty112/Prompt-builder) tool and its [online version](https://promptbuilder.streamlit.app/), thanks [lypsoty112](https://github.com/lypsoty112) for the contributions!
+[Prompt-builder](https://github.com/lypsoty112/Prompt-builder) and its [online version](https://promptbuilder.streamlit.app/) is a small Python tool and application that allows users to generate natural language prompts adhering to specific rules and guidelines defined in our paper. Special thanks to [lypsoty112](https://github.com/lypsoty112) for the excellent contribution!
+
+[Magic Prompts](https://magicprompts.lyzr.ai/) is an easy tool to generate high-quality prompts. Special thanks to [Lyzr](https://www.lyzr.ai/) for the excellent contribution!
 
 ## Citation
 
